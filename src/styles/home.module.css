@@ -1,0 +1,12 @@
+.main {
+    background-image: linear-gradient(#dd4923, #e97a32, #F9B337);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+}

@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.resources {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.link {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.divider {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.trademark {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.registration {
+    padding-left: 20px;
+}

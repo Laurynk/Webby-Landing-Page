@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Urbanist", sans-serif; */
+
+:root {
+  --sinopia: #DD4923;
+  --pumpkin: #E97A32;
+  --xanthous: #F9B337;
+  --timberwolf: #f4f4f4;
+  --white: #ffffff;
+}

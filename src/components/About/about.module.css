@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--timberwolf);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1125px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.animation {
+    width: 200px;
+    height: 200px;
+    background-color: var(--pumpkin);
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.header {
+    font-family: "Urbanist", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.subtext {
+    font-family: "Urbanist", sans-serif; 
+    font-size: 16px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.appFeatures {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.checkMark {
+    margin-right: 10px;
+}
