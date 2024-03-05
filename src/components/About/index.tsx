@@ -8,7 +8,9 @@ export default function About() {
     return (
         <div className={styles.main}>
             <div className={styles.container}>
-                <div className={styles.animation}>PlaceHolder</div>
+                <div className={styles.animation}>
+                    <Spline scene="https://prod.spline.design/ntGdQSkMSYThqHgE/scene.splinecode" />
+                </div>
 
                 <div className={styles.info}>
                     <h1 className={styles.header}>What Webby does</h1>
