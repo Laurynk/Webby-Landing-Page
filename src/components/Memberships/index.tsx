@@ -1,5 +1,6 @@
 import styles from './memberships.module.css'
 import Image from 'next/image'
+import Spline from '@splinetool/react-spline';
 
 import greenCheck from '../../../public/green-checkmark.svg'
 
@@ -12,7 +13,9 @@ export default function Memberships() {
                 <div className={styles.plan}>
                     <div className={styles.header}>
                         <h3 className={styles.planName}>Webby Pro</h3>
-                        <div className={styles.animation}>placeholder</div>
+                        <div className={styles.animation}>
+                            <Spline scene="https://prod.spline.design/SAH6hqVMmPcuJrok/scene.splinecode" />
+                        </div>
                         <div className={styles.price}>
                             <h1 className={styles.priceNum}>$20</h1>
                             <h3 className={styles.month}>/month</h3>
@@ -39,7 +42,9 @@ export default function Memberships() {
                 <div className={styles.plan}>
                     <div className={styles.header}>
                         <h3 className={styles.planName}>Webby Premium</h3>
-                        <div className={styles.animation}>placeholder</div>
+                        <div className={styles.animation}>
+                            <Spline scene="https://prod.spline.design/D0BLGTnIIRkoBrYs/scene.splinecode" />
+                        </div>
                         <div className={styles.price}>
                             <h1 className={styles.priceNum}>$45</h1>
                             <h3 className={styles.month}>/month</h3>
@@ -66,7 +71,9 @@ export default function Memberships() {
                 <div className={styles.plan}>
                     <div className={styles.header}>
                         <h3 className={styles.planName}>Webby Gold</h3>
-                        <div className={styles.animation}>placeholder</div>
+                        <div className={styles.animation}>
+                            <Spline scene="https://prod.spline.design/B6xsg0wJJ7zPO2hH/scene.splinecode" />
+                        </div>
                         <div className={styles.price}>
                             <h1 className={styles.priceNum}>$60</h1>
                             <h3 className={styles.month}>/month</h3>

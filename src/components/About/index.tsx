@@ -1,5 +1,6 @@
 import styles from './about.module.css'
 import Image from 'next/image'
+import Spline from '@splinetool/react-spline';
 
 import circleCheck from '../../../public/checkmark-circle.svg'
 

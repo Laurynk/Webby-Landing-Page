@@ -1,4 +1,5 @@
 import styles from './callToAction.module.css'
+import Spline from '@splinetool/react-spline';
 
 export default function CallToAction() {
     return(
@@ -14,7 +15,9 @@ export default function CallToAction() {
             </div>
 
             <div className={styles.animationContainer}>
-                <div className={styles.animation}>PlaceHolder</div>
+                <div className={styles.animation}>
+                    <Spline scene="https://prod.spline.design/tYuoK7o1BMAw6Ior/scene.splinecode" />
+                </div>
             </div>
         </div>
     )
