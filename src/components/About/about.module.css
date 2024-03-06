@@ -59,3 +59,126 @@
 .checkMark {
     margin-right: 10px;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .animation {
+        margin: 20px auto;
+    }
+
+    .info {
+        margin: 20px auto;
+    }
+
+    .header {
+        font-size: 24px;
+    }
+
+    .subtext {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .appFeatures {
+        margin-top: 20px;
+    }
+
+    .feature {
+        flex-direction: column;
+    }
+
+    .checkMark {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        margin: 40px auto;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    .animation {
+        margin: 40px auto;
+    }
+
+    .info {
+
+        margin: 40px auto;
+    }
+
+    .header {
+        font-size: 28px;
+    }
+
+    .subtext {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .appFeatures {
+        margin-top: 30px;
+    }
+
+    .feature {
+        flex-direction: row;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .main {
+        flex-direction: row;
+    }
+
+    .container {
+        width: 1125px;
+        height: 400px;
+        margin: 60px auto;
+    }
+
+    .animation {
+        margin: 80px 150px 80px 100px;
+    }
+
+    .info {
+        margin: 80px 0 0 80px;
+    }
+
+    .header {
+        font-size: 30px;
+    }
+
+    .subtext {
+        padding: 20px 80px 25px 0;
+    }
+
+    .appFeatures {
+        margin-top: 0;
+    }
+
+    .feature {
+        flex-direction: row;
+    }
+}

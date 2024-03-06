@@ -36,3 +36,101 @@
     margin-top: 20px;
     margin-right: 100px;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        margin: 10px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .login {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .signup {
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        height: 60px;
+        padding: 20px;
+    }
+
+    .logo {
+        margin: 10px;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .login {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .signup {
+        width: 130px;
+        height: 45px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .container {
+        height: 80px;
+        padding: 20px;
+    }
+
+    .logo {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: auto;
+        margin-right: 100px;
+    }
+
+    .login {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .signup {
+        width: 130px;
+        height: 45px;
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+}
+

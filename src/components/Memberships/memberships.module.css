@@ -8,15 +8,16 @@
     font-family: "Urbanist", sans-serif;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 350px;
-    margin-top: 150px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 .plans {
     display: flex;
     flex-direction: row;
-    margin-left: 350px;
-    margin-top: 30px;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 .plan {
@@ -77,13 +78,14 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-top: 30px;
+    margin: auto;
 
 }
 
 .feature {
     display: flex;
     flex-direction: row;
-    margin-left: 80px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
@@ -103,4 +105,92 @@
     margin-left: 80px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .container {
+        background-color: var(--timberwolf);
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 24px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 90%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .planName {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .animation {
+        margin: auto;
+    }
+
+    .price {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto;
+    }
+
+    .priceNum {
+        font-size: 24px;
+    }
+
+    .month {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .details {
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .feature {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subtext {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .buyNow {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .plan {
+        width: 45%;
+        margin-right: 20px;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .plan {
+        width: 340px;
+        height: 625px;
+        margin-right: 50px;
+    }
 }

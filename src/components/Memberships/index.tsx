@@ -24,15 +24,15 @@ export default function Memberships() {
                     <div className={styles.details}>
                         <div className={styles.feature}>
                             <Image src={greenCheck} width={35} height={35} alt='green-checkmark'/>
-                            <p className={styles.subtext}>feature 1</p>
+                            <p className={styles.subtext}>Advanced analytics and reporting</p>
                         </div>
                         <div className={styles.feature}>
                             <Image src={greenCheck} width={35} height={35} alt='green-checkmark'/>
-                            <p className={styles.subtext}>feature 1</p>
+                            <p className={styles.subtext}>Enhanced customer support</p>
                         </div>
                         <div className={styles.feature}>
                             <Image src={greenCheck} width={35} height={35} alt='green-checkmark'/>
-                            <p className={styles.subtext}>feature 1</p>
+                            <p className={styles.subtext}>Exclusive members-only content</p>
                         </div>
 
                         <button className={styles.buyNow}>Buy now</button>
@@ -53,15 +53,15 @@ export default function Memberships() {
                     <div className={styles.details}>
                         <div className={styles.feature}>
                             <Image src={greenCheck} width={35} height={35} alt='green-checkmark'/>
-                            <p className={styles.subtext}>feature 1</p>
+                            <p className={styles.subtext}>Increased project file storage</p>
                         </div>
                         <div className={styles.feature}>
                             <Image src={greenCheck} width={35} height={35} alt='green-checkmark'/>
-                            <p className={styles.subtext}>feature 1</p>
+                            <p className={styles.subtext}>enhanced repository security and privacy</p>
                         </div>
                         <div className={styles.feature}>
                             <Image src={greenCheck} width={35} height={35} alt='green-checkmark'/>
-                            <p className={styles.subtext}>feature 1</p>
+                            <p className={styles.subtext}>customizable themes and layouts</p>
                         </div>
 
                         <button className={styles.buyNow}>Buy now</button>
@@ -82,15 +82,15 @@ export default function Memberships() {
                     <div className={styles.details}>
                         <div className={styles.feature}>
                             <Image src={greenCheck} width={35} height={35} alt='green-checkmark'/>
-                            <p className={styles.subtext}>feature 1</p>
+                            <p className={styles.subtext}>Integration with third party apps</p>
                         </div>
                         <div className={styles.feature}>
                             <Image src={greenCheck} width={35} height={35} alt='green-checkmark'/>
-                            <p className={styles.subtext}>feature 1</p>
+                            <p className={styles.subtext}>Priority access to new features</p>
                         </div>
                         <div className={styles.feature}>
                             <Image src={greenCheck} width={35} height={35} alt='green-checkmark'/>
-                            <p className={styles.subtext}>feature 1</p>
+                            <p className={styles.subtext}>Access to exclusive workshops and guides</p>
                         </div>
 
                         <button className={styles.buyNow}>Buy now</button>

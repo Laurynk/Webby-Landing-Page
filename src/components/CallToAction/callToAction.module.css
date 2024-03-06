@@ -63,3 +63,140 @@
     width: 400px;
     height: 400px;
 }
+
+/* Phone Styles */
+@media (max-width: 576px) {
+    .container {
+        /* Phone-specific styles */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tagline {
+        /* Phone-specific styles */
+        margin-left: 0;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 40px;
+        width: auto;
+    }
+
+    .subtext {
+        /* Phone-specific styles */
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+        width: auto;
+    }
+
+    .inputField {
+        /* Phone-specific styles */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emailInput {
+        /* Phone-specific styles */
+        margin-left: 0;
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    .accessBtn {
+        /* Phone-specific styles */
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .animation {
+        /* Phone-specific styles */
+        margin-top: 40px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 577px) and (max-width: 1024px) {
+    .container {
+        align-items: center;
+    }
+
+    .tagline {
+        margin-left: 0;
+        margin-top: 80px;
+        text-align: center;
+        font-size: 45px;
+        width: auto;
+    }
+
+    .subtext {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+        width: auto;
+    }
+
+    .inputField {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emailInput {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    .accessBtn {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .animation {
+        margin-top: 60px;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .container {
+        justify-content: center;
+    }
+
+    .tagline {
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 700px;
+    }
+
+    .subtext {
+        margin-left: 100px;
+        margin-top: 20px;
+        width: 600px;
+    }
+
+    .inputField {
+        flex-direction: row;
+    }
+
+    .emailInput {
+        margin-left: 100px;
+        margin-top: 20px;
+        width: 350px;
+    }
+
+    .accessBtn {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .animation {
+        margin-top: 60px;
+        width: 400px;
+        height: 400px;
+    }
+}
+
